@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
-
-    <link rel="stylesheet" href="styles.css">
+    <title>forms</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p style="color: red;">Hello World</p>
+    <form onsubmit="submit_form()">
+        <label>Username : </label>
+        <input type="text" name="username" id="username" onblur="checkBlur()">
+
+        <label>Password : </label>
+        <input type="text" name="password" id="password" onblur="checkBlur()">
+
+        <input type="submit">
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
