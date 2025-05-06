@@ -16,6 +16,21 @@
     }
 ?>
 
+<?php
+
+$fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+echo "<br>";
+echo "<h1>Fruits</h1>";
+echo "<ul>";
+foreach ($fruits as $fruit) {
+    echo "<li>" . $fruit . "</li>";
+}
+echo "</ul>";
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
