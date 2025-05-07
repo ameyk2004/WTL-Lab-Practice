@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratice</title>
+    <title>Practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
+
+    <input type="text" name="username" ng-model="username">
+
+    <p>Hello <span ng-bind="username"></span>!</p>
+
+    <button ng-click="clearName()">Clear</button>
+
+
+    <script>
+
+        var app = angular.module("myApp", []);
+
+        app.controller("myCtrl", function($scope){
+
+            $scope.username = "";
+
+            $scope.clearName = function() {
+                $scope.username = "";
+            }
+            
+        });
+
+    </script>
     
 </body>
 </html>
