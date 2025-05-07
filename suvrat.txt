@@ -1,0 +1,39 @@
+internet
+protocols
+html req rsp model
+tags
+tables
+html5 vs html
+
+
+js
+vars in js
+arrays : declaration func
+dom manipultion
+pop up boxes
+validation
+
+angular
+what is
+expressin
+directives
+
+servlet : lifecycle
+http session
+
+jsp
+jsp lifecycle
+jsp action tags
+
+struts
+architecture
+mvc model
+
+php
+tags
+variables
+mysql
+scope of variables (local, global, super global, static)
+
+ruby on rails
+asp.net
